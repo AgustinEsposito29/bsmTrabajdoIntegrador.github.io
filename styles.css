@@ -396,43 +396,76 @@
 
 @media (max-width: 500px){
     * {
+        padding: 0;
+        margin: 0;
         font-size: 12px;
     }
 
-
-
+    .main{
+        width: 100%;
+    }
 
     /* Index */
 
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
     .header-nav{
-        display: none;
+        min-width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .nav-item{
+        text-align: center;
+        color: #FFF;
+        border-bottom: 1px solid white;
+    }
+    
+    .nav-item > a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .nav-item-bar{
+        height: 80%;
+        width: 2px;
     }
 
 /* Main Content */
 
 .main-photos-section{
+    width: 100%;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Vkem3XigBLPSJ8HSAfjQjwHaE7%26pid%3DApi&f=1&ipt=f1a6ef484c333e8d8081b295a2999cec3350cf100e8442c1a56006de3114baf8&ipo=images");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    min-height: 50vh;
+
 }
 
 
 
 .carousel{
     width: 100%;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .carousel h2{
     /* background-color: yellow; */
     width: 100%;
+    text-align: center;
     color: #FFF;
     font-size: 15px;
 }
