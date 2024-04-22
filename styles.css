@@ -10,7 +10,7 @@
 /* Header styles */
 .header{
     /* background-image: url(""); */
-    background-color: #2D668F;
+    background-color: #6998D0;
     background-repeat: no-repeat;
     background-size: cover;
     height: 10vh;
@@ -53,7 +53,7 @@
 
 
 .main-photos-section{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Vkem3XigBLPSJ8HSAfjQjwHaE7%26pid%3DApi&f=1&ipt=f1a6ef484c333e8d8081b295a2999cec3350cf100e8442c1a56006de3114baf8&ipo=images");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QETnWFw7XDA8qHWh6lTzqQHaE9%26pid%3DApi&f=1&ipt=b50a84c3b8d394b70b74296a318e7ed2dc27338dd09adaf965667ed2a26c3bc7&ipo=images");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 50vh;
@@ -71,11 +71,12 @@
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .main-photos-section-about h1{
  font-size: 3em;
+ margin-top: 1em;
  color: #FFF;
 }
 
@@ -252,7 +253,7 @@
 /* Footer */
 
 .footer{
-    background-color: #2D668F;
+    background-color: #6998D0;
     font-size: 10px;
     color: #FFF;;
     display: flex;
@@ -583,7 +584,7 @@
     
 .footer{
 
-    background-color: #2D668F;
+    background-color: #6998D0;
     font-size: 6px;
     color: #FFF;;
     display: flex;
