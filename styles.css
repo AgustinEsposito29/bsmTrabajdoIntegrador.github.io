@@ -9,20 +9,21 @@
 
 /* Header styles */
 .header{
-    /* background-image: url(""); */
-    background-color: #6998D0;
-    background-repeat: no-repeat;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP._5O42_3LcXYzQNYqxLOoogHaEo%26pid%3DApi&f=1&ipt=cb0ff6a2a94ffe2ae67adf8aecca0613969b4c6f033fdd55446f81f76a78d196&ipo=images");
     background-size: cover;
-    height: 10vh;
+    background-repeat: no-repeat;
+    /* height: 10vh; */
 
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content:space-around;
 }
 
 .header-nav{
-    width: 70%;
-    min-height: 80%;
+    width: 100%;
+    min-height: 100%;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center
@@ -43,7 +44,7 @@
 
 
 .nav-item-bar{
-    width: 5px;
+    width: 3px;
     height: 100%;
     background-color: white;
     border-radius: 10px;
@@ -53,9 +54,7 @@
 
 
 .main-photos-section{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QETnWFw7XDA8qHWh6lTzqQHaE9%26pid%3DApi&f=1&ipt=b50a84c3b8d394b70b74296a318e7ed2dc27338dd09adaf965667ed2a26c3bc7&ipo=images");
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
     min-height: 50vh;
 
     display: flex;
@@ -64,11 +63,7 @@
 }
 
 .main-photos-section-about{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Vkem3XigBLPSJ8HSAfjQjwHaE7%26pid%3DApi&f=1&ipt=f1a6ef484c333e8d8081b295a2999cec3350cf100e8442c1a56006de3114baf8&ipo=images");
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 50vh;
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -82,8 +77,8 @@
 
 .carousel{
     width: 40%;
-    margin-top: 3em;
-    margin-left: 5em;
+    margin-top: 2em;
+    margin-left: 10em;
 }
 
 .carousel h2{
@@ -200,12 +195,6 @@
 
 /* About Pages */
 
-.grid-pictures-about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
-
 .picture-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -242,12 +231,14 @@
 
 .text-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
 }
 
 .text{
+    margin-top: 5px;
     max-width: 80%;
 }
 
@@ -282,6 +273,11 @@
 
 .footer-section-article span{
     font-size: 15px;
+}
+
+.footer-section-article a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .footer-section-bar{
@@ -361,17 +357,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    height: 80%;
-
+    align-items: cen    ter;
 }
 
 .contact-text-container{
     width: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 .contact-text-container h2{
@@ -381,7 +375,6 @@
 
 .contact-text-container h4{
     width: 100%;
-    margin-bottom: 10px;
 }
 
 
